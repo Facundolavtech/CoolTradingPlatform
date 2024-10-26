@@ -1,6 +1,6 @@
 import { getSiteURL } from '@/lib/get-site-url';
 import { LogLevel } from '@/lib/logger';
-
+//config
 export interface Config {
   site: { name: string; description: string; themeColor: string; url: string };
   logLevel: keyof typeof LogLevel;
