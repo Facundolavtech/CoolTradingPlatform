@@ -75,7 +75,7 @@ module.exports = {
     'import/no-default-export': 'off', // Next.js components must be exported as default
     'import/no-extraneous-dependencies': 'off', // conflict with sort-imports plugin
     'import/order': 'off', // using custom sort plugin
-    'no-nested-ternary': 'off', // personal style
+    'no-nested-ternary': 'off', // personal style 
     'no-redeclare': 'off', // conflict with TypeScript function overloads
     'react/jsx-fragments': 'off', // personal style
     'react/prop-types': 'off', // TypeScript is used for type checking
