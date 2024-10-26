@@ -9,7 +9,7 @@ import { AccountDetailsForm } from '@/components/dashboard/account/account-detai
 import { AccountInfo } from '@/components/dashboard/account/account-info';
 
 export const metadata = { title: `Account | Dashboard | ${config.site.name}` } satisfies Metadata;
-
+//local traders
 export default function Page(): React.JSX.Element {
   return (
     <Stack spacing={3}>

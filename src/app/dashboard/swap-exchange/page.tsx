@@ -7,7 +7,7 @@ import Footer from '@/components/dashboard/footer/footer';
 import SwapExchangeTable from '@/components/dashboard/table/swap-exchange-table';
 
 
-
+//swap pages
 export default function Page(): React.JSX.Element {
   
   return (

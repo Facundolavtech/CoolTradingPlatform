@@ -17,7 +17,7 @@ import type { Integration } from '@/components/dashboard/integrations/integratio
 import { CompaniesFilters } from '@/components/dashboard/integrations/integrations-filters';
 
 export const metadata = { title: `Integrations | Dashboard | ${config.site.name}` } satisfies Metadata;
-
+//faq page
 const integrations = [
   {
     id: 'INTEG-006',
