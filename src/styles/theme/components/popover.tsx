@@ -1,9 +1,7 @@
 import * as React from 'react';
 import { useColorScheme } from '@mui/material';
-
 import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
-
 
 interface Props {
   title: string;
@@ -15,7 +13,6 @@ export default function BasicPopover({ title, content }: Props): React.JSX.Eleme
   const { mode, setMode } = useColorScheme();
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setMode('dark');
     setAnchorEl(event.currentTarget);
   };
 
